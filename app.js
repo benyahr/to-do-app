@@ -30,7 +30,7 @@ deleteBtn.addEventListener('click', function(event) {
    // attach the checkbox to the li
    newLi.appendChild(checkbox);
 
-newli.appendChild(deleteBtn);
+newLi.appendChild(deleteBtn);
 
    // attach the li to the ul
    toDoList.appendChild(newLi);
