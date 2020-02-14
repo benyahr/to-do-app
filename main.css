@@ -1,0 +1,21 @@
+h1 {
+  color:hsla(316, 100%, 50%, 1);
+  font-weight: bold;
+  text-align: center;
+}
+form {
+  color:hsla(276, 100%, 47%, 1);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+}
+ul {
+  text-align: center;
+  font-weight: bold;
+  color:hsla(192, 100%, 47%, 1);
+  padding-top: 50px;
+}
+button {
+  font-weight: 500;
+  color: hsla(94, 100%, 18%, 1);
+}
