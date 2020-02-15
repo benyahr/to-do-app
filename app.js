@@ -7,7 +7,7 @@ function onReady() {
 
   addToDoForm.addEventListener('submit', event => {
     event.preventDefault();
-
+}
     // get the text
    let title = newToDoText.value;
 
@@ -29,7 +29,7 @@ deleteBtn.textContent = "Delete";
 deleteBtn.addEventListener('click', function(event) {
   let buttonLitext = this.parentElement.childNodes[0].textContent;
   toDoList.removeChild(this.parentElement);
-
+});
   toDos.forEach(function(currentToDo, index) {
     //console.log(currentToDo, index);
     if(currentToDo === buttonLitext){
