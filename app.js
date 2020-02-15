@@ -4,7 +4,7 @@ function onReady() {
   const addToDoForm = document.getElementById('addToDoForm');
   const newToDoText = document.getElementById('newToDoText');
   const toDoList = document.getElementById('toDoList');
-addToDoForm.addEventListener('submit', (event) => {
+addToDoForm.addEventListener('submit', event => {
   event.preventDefault();
   let title = newToDoText.value;
 
@@ -27,15 +27,15 @@ addToDoForm.addEventListener('submit', (event) => {
         toDos.splice(index, 1);
       }
     });
-  })
+});
 
   newLi.textContent = title;
   newLi.appendChild(checkbox);
-  newLi.appendChild(deleteBTN);
+  newLi.appendChild(deleteBtn);
   toDoList.appendChild(newLi);
   newToDoText.value = '';
   });
-};
+}
 
 window.onload = function() {
   onReady();
