@@ -19,3 +19,8 @@ button {
   font-weight: 500;
   color: hsla(94, 100%, 18%, 1);
 }
+header {
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
