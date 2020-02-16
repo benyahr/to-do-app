@@ -35,7 +35,7 @@ function onReady() {
     if(!newToDoText.value){ return; }
     toDos.push({
      title: newToDoText.value,
-     complete: false
+     complete: false,
      id: id
    });
 
